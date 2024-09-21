@@ -1,0 +1,36 @@
+name: memes_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: 1.0.8
+  google_fonts: 6.2.1
+  http: 1.2.2
+  provider: 6.1.2
+  pro_image_editor: 5.3.0
+  saver_gallery: 3.0.6
+  permission_handler: 11.3.1
+  device_info_plus: 10.1.2
+  cached_network_image: 3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: 4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets: 
+    - assets/
